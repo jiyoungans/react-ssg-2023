@@ -119,5 +119,9 @@
 
     // "rangav.vscode-thunder-client",
 
+    /* AI Assistant ------------------------------------------------------------- */
+
+    // "Codeium.codeium",
+
   ]
 }
