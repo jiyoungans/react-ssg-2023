@@ -22,11 +22,6 @@
     ".npmrc": "bat"
   },
 
-  "path-intellisense.extensionOnImport": true,
-  "path-intellisense.mappings": {
-    "@": "${workspaceRoot}/src"
-  },
-
   "emmet.variables": {
     "charset": "UTF-8",
     "lang": "ko-KR"
@@ -90,5 +85,44 @@
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.suggest.autoImports": true,
-  "typescript.suggest.paths": true
+  "typescript.suggest.paths": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": false
+  },
+
+  "eslint.enable": false,
+
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
+  
+  "codeium.enableCodeLens": false,
+  "codeium.enableConfig": { 
+    "*": true,
+    "javascript": false,
+    "javascriptreact": false,
+    "typescript": false,
+    "typescriptreact": false,
+  },
 }
