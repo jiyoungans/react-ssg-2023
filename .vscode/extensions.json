@@ -6,7 +6,6 @@
     // "HTMLHint.vscode-htmlhint",
     // "formulahendry.auto-close-tag",
     // "formulahendry.auto-rename-tag",
-    // "javad-ghased.yourlorem",
     
     /* CSS ---------------------------------------------------------------------- */
     
@@ -26,9 +25,11 @@
 
     /* Tailwind CSS ------------------------------------------------------------- */
 
+    // "stivo.tailwind-fold",
     // "austenc.tailwind-docs",
     // "bourhaouta.tailwindshades",
     // "bradlc.vscode-tailwindcss",
+    // "Jackardios.vscode-css-to-tailwindcss",
 
     /* JavaScript --------------------------------------------------------------- */
     
@@ -44,8 +45,8 @@
     
     /* Node.js ------------------------------------------------------------------ */
     
-    // "chrisbibby.hide-node-modules",
     // "jasonnutter.search-node-modules",
+    // "chrisbibby.hide-node-modules",
     // "mikestead.dotenv",
     
     /* React -------------------------------------------------------------------- */
@@ -54,8 +55,10 @@
     // "sanfilippopablo.react-component-refactor",
     // "angryobject.react-pure-to-class-vscode",
     // "dsznajder.es7-react-js-snippets",
+    // "dsbasko.create-component-helper",
     // "riazxrazor.html-to-jsx",
     // "infarkt.css-to-jss",
+    // "zenclabs.previewjs",
 
     /* Linter, Formatter -------------------------------------------------------- */
     
@@ -63,6 +66,7 @@
     // "dbaeumer.vscode-eslint",
     // "esbenp.prettier-vscode",
     // "rebornix.toggle",
+    // "rome.rome",
 
     /* Test --------------------------------------------------------------------- */
     
@@ -100,6 +104,7 @@
     /* Editor ------------------------------------------------------------------- */
 
     // "brittanychiang.halcyon-vscode",
+    // "mutantdino.resourcemonitor",
     // "PKief.material-icon-theme",
     // "EditorConfig.EditorConfig",
     // "sculove.translator",
@@ -114,6 +119,10 @@
     
     // "shd101wyy.markdown-preview-enhanced",
     // "jebbs.markdown-extended",
+
+    /* Figma -------------------------------------------------------------------- */
+
+    // "figma.figma-vscode-extension",
 
     /* RESTful Client ----------------------------------------------------------- */
 

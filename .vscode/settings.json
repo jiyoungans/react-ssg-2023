@@ -16,18 +16,15 @@
     }
   },
   "files.associations": {
-    "*.js": "javascript",
     "*.jsx": "javascriptreact",
-    "*.ts": "typescript",
-    "*.tsx": "typescriptreact",
     ".browserslistrc": "bat",
     ".prettierrc": "json",
     ".npmrc": "dotenv"
   },
 
   "emmet.variables": {
-    "lang": "ko-KR",
     "charset": "UTF-8",
+    "lang": "ko-KR"
   },
   "emmet.includeLanguages": {
     "markdown": "html",
@@ -90,9 +87,6 @@
   "typescript.suggest.autoImports": true,
   "typescript.suggest.paths": true,
 
-  "totalTypeScript.hideAllTips": true,
-  "totalTypeScript.hideBasicTips": true,
-
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": false
@@ -118,16 +112,15 @@
     "editor.formatOnSave": false
   },
 
+  "editor.formatOnSave": false,
   "eslint.enable": false,
+
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
   
   "codeium.enableCodeLens": false,
-  "codeium.enableConfig": {
+  "codeium.enableConfig": { 
     "*": true,
-    "html": false,
-    "css": false,
-    "scss": false,
-    "json": false,
-    "jsonc": false,
     "javascript": false,
     "javascriptreact": false,
     "typescript": false,
