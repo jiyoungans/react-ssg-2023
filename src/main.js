@@ -6,13 +6,13 @@ const headlineElement = createElement(
   // 컴포넌트 타입(component type)
   'h1',
   // 컴포넌트 속성(component props(properties))
-  {},
+  { className: 'greeting' },
   // 전개 구문(spread syntax)
   // ...children
   // [child1, child2, ...]
-  '헬로',
+  createElement('span', {}, '헬로'),
   ' ',
-  '리액트!'
+  createElement('span', {}, '리액트!'),
 );
 
 // 생성된 리액트 요소
