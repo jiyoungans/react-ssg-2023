@@ -1,4 +1,4 @@
-import react, { createElement } from 'react';
+import { createElement } from 'react';
 import { createRoot } from 'react-dom/client';
 
 // 리액트 요소 생성하는 함수
@@ -30,7 +30,9 @@ if (rootElement) {
   // 리액트 돔의 루트 생성
   const reactDomRoot = createRoot(rootElement);
   // console.log(reactDomRoot); // { render, unmount }
-  reactDomRoot.render(headlineElement);
+  reactDomRoot.render(
+    headlineElement
+  );
 } else {
   // 존재하지 않을 경우
   alert('문서에 #root 요소가 존재하지 않습니다.');

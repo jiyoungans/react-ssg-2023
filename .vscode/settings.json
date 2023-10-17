@@ -114,7 +114,7 @@
 
   "editor.formatOnSave": false,
   "errorLens.enabled": false,
-  "eslint.enable": false,
+  "eslint.enable": true,
 
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true,
