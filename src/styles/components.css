@@ -1,8 +1,17 @@
 .Button {
-  padding-inline: 4px;
-  padding-block: 8px;
-  border: 2px solid currentColor;
+  cursor: pointer;
+  margin-inline: calc(var(--gap, 4px) / 2);
+  padding-inline: calc(var(--gap, 4px) * 4);
+  padding-block: calc(var(--gap, 4px) * 2);
+  border: calc(var(--gap, 4px) * 0.5) solid currentColor;
   color: inherit;
   background-color: transparent;
-  border-radius: 8px;
+  border-radius: calc(var(--gap, 4px) * 1.5);
+  font-weight: 700;
+
+  &:hover {
+    border-color: var(--color-forground);
+    background-color: var(--color-forground);
+    color: var(--color-background);
+  }
 }
