@@ -113,6 +113,7 @@
   },
 
   "editor.formatOnSave": false,
+  "errorLens.enabled": false,
   "eslint.enable": false,
 
   "totalTypeScript.hideAllTips": true,
@@ -120,10 +121,11 @@
   
   "codeium.enableCodeLens": false,
   "codeium.enableConfig": { 
-    "*": true,
+    "*": false,
     "javascript": false,
     "javascriptreact": false,
     "typescript": false,
     "typescriptreact": false,
   },
+
 }
